@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load menu_tags %}
+
+{% block title %}
+  Index Page
+{% endblock %}
+
+{% block content %}
+  <h1>Index</h1>
+  {% draw_menu 'menu_name' %}
+{% endblock %}
