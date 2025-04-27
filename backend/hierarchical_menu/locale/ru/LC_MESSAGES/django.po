@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-26 12:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: hierarchical_menu/apps.py:7
+msgid "Hierarchical Menu"
+msgstr "Иерархическое меню"
+
+#: hierarchical_menu/models.py:13
+msgid "Menu Name"
+msgstr "Название меню"
+
+#: hierarchical_menu/models.py:16
+msgid "Unique identifier for the menu (used for referencing)."
+msgstr "Уникальный идентификатор меню (используется для ссылки)."
+
+#: hierarchical_menu/models.py:20 hierarchical_menu/models.py:49
+msgid "Menu"
+msgstr "Меню"
+
+#: hierarchical_menu/models.py:21
+msgid "Menus"
+msgstr "Меню"
+
+#: hierarchical_menu/models.py:30
+msgid "Item Name"
+msgstr "Название пункта"
+
+#: hierarchical_menu/models.py:32
+msgid "Display name for the menu item."
+msgstr "Отображаемое название пункта меню."
+
+#: hierarchical_menu/models.py:35
+msgid "URL or URL Name"
+msgstr "URL или имя URL"
+
+#: hierarchical_menu/models.py:37
+msgid ""
+"Direct URL or the name of the URL pattern if \"Is Named URL\" is checked."
+msgstr ""
+"Прямой URL или имя шаблона URL, если выбрано \"Это именованный URL\"."
+
+#: hierarchical_menu/models.py:40
+msgid "Is Named URL"
+msgstr "Это именованный URL"
+
+#: hierarchical_menu/models.py:42
+msgid "Check this if \"URL or URL Name\" is the name of a URL pattern."
+msgstr "Отметьте, если \"URL или имя URL\" является именем шаблона URL."
+
+#: hierarchical_menu/models.py:50
+msgid "The menu this item belongs to."
+msgstr "Меню, к которому относится этот пункт."
+
+#: hierarchical_menu/models.py:58
+msgid "Parent Item"
+msgstr "Родительский пункт"
+
+#: hierarchical_menu/models.py:59
+msgid "The parent item for nested menus (optional)."
+msgstr "Родительский пункт для вложенных меню (необязательно)."
+
+#: hierarchical_menu/models.py:64
+msgid "Menu Item"
+msgstr "Пункт меню"
+
+#: hierarchical_menu/models.py:65
+msgid "Menu Items"
+msgstr "Пункты меню"
+
+#: hierarchical_menu/models.py:83
+msgid "Menu item cannot be parent of itself."
+msgstr "Пункт меню не может быть родителем самого себя."
+
+#: hierarchical_menu/models.py:91
+#, python-format
+msgid "Cannot resolve named URL: %(url)s"
+msgstr "Не удалось разрешить именованный URL: %(url)s"

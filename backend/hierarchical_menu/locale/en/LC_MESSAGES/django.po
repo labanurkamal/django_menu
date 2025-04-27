@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-26 12:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: hierarchical_menu/apps.py:7
+msgid "Hierarchical Menu"
+msgstr ""
+
+#: hierarchical_menu/models.py:13
+msgid "Menu Name"
+msgstr ""
+
+#: hierarchical_menu/models.py:16
+msgid "Unique identifier for the menu (used for referencing)."
+msgstr ""
+
+#: hierarchical_menu/models.py:20 hierarchical_menu/models.py:49
+msgid "Menu"
+msgstr ""
+
+#: hierarchical_menu/models.py:21
+msgid "Menus"
+msgstr ""
+
+#: hierarchical_menu/models.py:30
+msgid "Item Name"
+msgstr ""
+
+#: hierarchical_menu/models.py:32
+msgid "Display name for the menu item."
+msgstr ""
+
+#: hierarchical_menu/models.py:35
+msgid "URL or URL Name"
+msgstr ""
+
+#: hierarchical_menu/models.py:37
+msgid ""
+"Direct URL or the name of the URL pattern if \"Is Named URL\" is checked."
+msgstr ""
+
+#: hierarchical_menu/models.py:40
+msgid "Is Named URL"
+msgstr ""
+
+#: hierarchical_menu/models.py:42
+msgid "Check this if \"URL or URL Name\" is the name of a URL pattern."
+msgstr ""
+
+#: hierarchical_menu/models.py:50
+msgid "The menu this item belongs to."
+msgstr ""
+
+#: hierarchical_menu/models.py:58
+msgid "Parent Item"
+msgstr ""
+
+#: hierarchical_menu/models.py:59
+msgid "The parent item for nested menus (optional)."
+msgstr ""
+
+#: hierarchical_menu/models.py:64
+msgid "Menu Item"
+msgstr ""
+
+#: hierarchical_menu/models.py:65
+msgid "Menu Items"
+msgstr ""
+
+#: hierarchical_menu/models.py:83
+msgid "Menu item cannot be parent of itself."
+msgstr ""
+
+#: hierarchical_menu/models.py:91
+#, python-format
+msgid "Cannot resolve named URL: %(namespace)s %(url)s"
+msgstr ""
