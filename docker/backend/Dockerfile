@@ -13,6 +13,8 @@ COPY /backend/requirements.txt requirements.txt
 RUN mkdir -p /opt/app/static/ \
     && mkdir -p /opt/app/media/ \
     && mkdir -p /opt/app/staticfiles/ \
+    && apt-get update \
+    && apt-get install -y gettext \
     && pip install --upgrade pip --no-cache-dir \
     && pip install --no-cache-dir -r requirements.txt
 
