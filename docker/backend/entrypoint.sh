@@ -9,6 +9,10 @@ python manage.py makemigrations
 python manage.py migrate
 echo "Миграции успешно применены!"
 
+echo "Запуск компиляцию переводов"
+python manage.py compilemessages -l en -l ru
+echo "Успешный компиляцию переводов"
+
 echo "Собираем static файлы"
 python manage.py collectstatic --no-input
 echo "Static файлы успешно созданы!"
