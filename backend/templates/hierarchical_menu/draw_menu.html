@@ -1,0 +1,5 @@
+<ul class="menu">
+  {% for node in nodes %}
+    {% include 'includes/menu_item.html' with node=node nodes_to_extend=nodes_to_extend%}
+  {% endfor %}
+</ul>
